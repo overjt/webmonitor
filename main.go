@@ -6,9 +6,10 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"overjt/prueba/coreapp"
 	"sync"
 	"time"
+
+	"github.com/overjt/webmonitor/coreapp"
 )
 
 type MonitorService struct {
